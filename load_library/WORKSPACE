@@ -1,0 +1,6 @@
+workspace(name = "load_library_exercise")
+
+local_repository(
+    name = "example",
+    path = "../example",
+)

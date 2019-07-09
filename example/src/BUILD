@@ -1,7 +1,7 @@
-py_binary(
-    name="example_class",
-    srcs=["example_class.py"],
-    python_version = "PY2",
+py_library(
+    name = "example_class",
+    srcs = ["example_class.py"],
+    visibility = ["//visibility:public"],
 )
 
 py_test(
